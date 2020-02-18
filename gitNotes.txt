@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //		General
 //////////////////////////////////////
 git init
@@ -22,4 +23,30 @@ git pull -u origin master
 ///////////////////////////////////////
 //		Branches
 
+=======
+//		General
+//////////////////////////////////////
+git init
+git add .
+//pulls repo from github.com
+git clone "put url here"
+git status
+//commits changes to branch
+git commit -m 'put msg here'
+//starts tracking remote branch
+git remote add origin 'your url here'
+//pushes local changes to remote branch
+git push -u origin master
+
+////////////////////////////////////////
+//		Merging
+git pull -u origin master
+
+//exiting merge comment
+1. press i, 2. write msg, 3. press esc
+4. write :wq, 5. press enter
+///////////////////////////////////////
+//		Branches
+
+>>>>>>> b6ad23c7fa51487fefe6c0d0a105b782bc7b5b24
 git switch
