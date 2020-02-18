@@ -1,0 +1,11 @@
+git init
+git add .
+//pulls repo from github.com
+git clone "put url here"
+git status
+//commits changes to branch
+git commit -m 'put msg here'
+//starts tracking remote branch
+git remote add origin 'your url here'
+//pushes local changes to remote branch
+git push -u origin master
