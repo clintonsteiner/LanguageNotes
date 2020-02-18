@@ -1,3 +1,5 @@
+//		General
+//////////////////////////////////////
 git init
 git add .
 //pulls repo from github.com
@@ -9,3 +11,15 @@ git commit -m 'put msg here'
 git remote add origin 'your url here'
 //pushes local changes to remote branch
 git push -u origin master
+
+////////////////////////////////////////
+//		Merging
+git pull -u origin master
+
+//exiting merge comment
+1. press i, 2. write msg, 3. press esc
+4. write :wq, 5. press enter
+///////////////////////////////////////
+//		Branches
+
+git switch
