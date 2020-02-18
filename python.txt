@@ -1,3 +1,5 @@
+//  https://robertsj.github.io/me400_notes/lectures/Basic_Operators_and_Built-In_Functions.html
+//credit
 //          Beginning
 symbol      ||      example     ||      Definition
 +           ||      a + b       ||      addition
