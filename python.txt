@@ -1,0 +1,7 @@
+//          Beginning
+symbol      ||      example     ||      Definition
++           ||      a + b       ||      addition
+//          ||      a//b        ||      integer arithm.
+%           ||      a%b         ||      remainder
+**          ||      a**b        ||      a to the pow of b
+^           ||      a^b         ||      bitwise exclusive
