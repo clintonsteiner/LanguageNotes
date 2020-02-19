@@ -7,3 +7,50 @@ symbol      ||      example     ||      Definition
 %           ||      a%b         ||      remainder
 **          ||      a**b        ||      a to the pow of b
 ^           ||      a^b         ||      bitwise exclusive
+
+rad = float(input('enter rad'))
+dir(rad)//		 lists what functions you can call
+
+
+///////////////////////////////////////////////////////////
+//		Math Module
+import math
+math.pi
+
+///////////////////////////////////////////////////////////
+//		NumPy Module
+import numpy as np
+
+np.sin(1.0)
+np.linspace(0,1,10)	//0, .11, .22 etc..
+np.array([1,1,1])
+np.ones(3)
+np.zeros(3)
+np.arange(start, end, step)
+len(d) //		lists number of elements in array
+d.size // same thing
+d.max()
+d.mean()
+d.sum()
+d.shape()
+np.dot(d)
+d[-1] //		accesses last element of array
+
+///////////////////////////////////////////////////////////
+//		MatPlotLib Module
+import matplotlib.pyplot as plt
+plt.plot(x,y, 'k-o')
+plt.show()
+plt.legend(['sin(x)', 'cos(x)'], loc=0)
+plt.xlabel('x')
+plt.ylabel('y')
+
+symbol      ||      color
+k	    || black
+b	    || blue
+r	    || red
+g	    || green
+c	    || cyan
+m	    || magenta
+	    ||
+	    ||
